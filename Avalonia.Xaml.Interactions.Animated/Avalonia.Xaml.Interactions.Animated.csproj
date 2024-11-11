@@ -19,7 +19,14 @@
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
     <Version>11.2.0</Version>
     <PackageId>Egolds.Avalonia.Xaml.Interactions.Animated</PackageId>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Avalonia" Version="11.2.0" />
