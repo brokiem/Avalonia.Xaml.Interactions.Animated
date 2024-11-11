@@ -2,6 +2,8 @@
 
 **Avalonia.Xaml.Interactions.Animated** is a simple library for Avalonia UI that introduces smooth animation support for vertical scrolling in the `ScrollViewer`. This library adds a smooth scroll effect to improve the user experience, especially for content with a lot of scrolling.
 
+![Demo Animation](docs/preview.gif)
+
 ## Dependencies
 
 This library depends on the `Avalonia.Xaml.Interactivity` package. Make sure you have it installed in your project:
