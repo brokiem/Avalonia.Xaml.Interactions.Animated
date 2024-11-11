@@ -1,3 +1,5 @@
+[![Install via NuGet](https://img.shields.io/badge/Install-via%20NuGet-blue)](https://www.nuget.org/packages/Egolds.Avalonia.Xaml.Interactions.Animated)
+
 # Avalonia.Xaml.Interactions.Animated
 
 **Avalonia.Xaml.Interactions.Animated** is a simple library for Avalonia UI that introduces smooth animation support for vertical scrolling in the `ScrollViewer`. This library adds a smooth scroll effect to improve the user experience, especially for content with a lot of scrolling.
@@ -12,10 +14,13 @@ This library depends on the `Avalonia.Xaml.Interactivity` package. Make sure you
 
 ## Installation
 
-Currently, `Avalonia.Xaml.Interactions.Animated` is not available via NuGet. To use it in your project, follow these steps:
+You can install `Avalonia.Xaml.Interactions.Animated` via NuGet:
 
-1. Download the `.dll` file from the [Releases section of this repository](https://github.com/Egolds/Avalonia.Xaml.Interactions.Animated/releases).
-2. Add the `.dll` file to your project references manually.
+```bash
+Install-Package Egolds.Avalonia.Xaml.Interactions.Animated
+```
+
+Or, if you prefer, download the `.dll` file directly from the [Releases section of this repository](https://github.com/Egolds/Avalonia.Xaml.Interactions.Animated/releases) and add it to your project references manually.
 
 ## Usage
 
@@ -30,7 +35,7 @@ xmlns:ia="using:Avalonia.Xaml.Interactions.Animated"
 ```
 
 ### Step 2: Attach the Behavior
-The animation effect is very easy to apply. Simply add ```<ia:VerticalScrollViewerAnimatedBehavior/>``` to the ```Interaction.Behaviors``` collection of your ScrollViewer:
+The animation effect is very easy to apply. Simply add `<ia:VerticalScrollViewerAnimatedBehavior/>` to the `Interaction.Behaviors` collection of your ScrollViewer:
 
 ```xml
 <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Hidden">
