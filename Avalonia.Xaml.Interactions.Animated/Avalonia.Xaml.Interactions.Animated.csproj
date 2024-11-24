@@ -18,7 +18,7 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
     <Version>11.2.0</Version>
-    <PackageId>Egolds.Avalonia.Xaml.Interactions.Animated</PackageId>
+    <PackageId>brokiem.Egolds.Avalonia.Xaml.Interactions.Animated</PackageId>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
   <ItemGroup>
