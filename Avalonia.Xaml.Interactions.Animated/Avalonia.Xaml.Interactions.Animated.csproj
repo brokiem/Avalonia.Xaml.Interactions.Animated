@@ -17,7 +17,7 @@
     <PackageTags>Avalonia;Behavior;Behaviors;C#;Animation;Transition;ScrollViewer;Scrolling;Interaction;Interactivity;Interactions;Xaml</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
-    <Version>11.2.0</Version>
+    <Version>11.2.1</Version>
     <PackageId>brokiem.Egolds.Avalonia.Xaml.Interactions.Animated</PackageId>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
