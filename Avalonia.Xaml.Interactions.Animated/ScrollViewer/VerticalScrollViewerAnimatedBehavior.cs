@@ -30,7 +30,7 @@ public class VerticalScrollViewerAnimatedBehavior : StyledElementBehavior<Scroll
         set => SetValue(ScrollChangeSizeProperty, value);
     }
 
-    private const double AnimationDuration = 200; // animation duration in milliseconds
+    private const double AnimationDuration = 170; // animation duration in milliseconds
 
     private bool _isAnimating;
     private double _targetOffset;
