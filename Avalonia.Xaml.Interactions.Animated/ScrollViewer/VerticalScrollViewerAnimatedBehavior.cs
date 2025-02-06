@@ -301,7 +301,7 @@ public class VerticalScrollViewerAnimatedBehavior : StyledElementBehavior<Scroll
             // Apply offset
             AssociatedObject!.Offset = new Vector(AssociatedObject!.Offset.X, currentOffset);
             
-            await Task.Delay(8); // Update every 8ms
+            await Task.Delay(10); // Update every 10ms
         }
     }
 }
